@@ -9,10 +9,10 @@ body {
   font-family: "Fira Sans", serif;
 }
 
-body button:hover{
-  scale: .98;
-  transition: all .2s ease;
-  opacity: .7;
+body button:hover {
+  scale: 0.98;
+  transition: all 0.2s ease;
+  opacity: 0.7;
   cursor: pointer;
 }
 nav {
@@ -76,7 +76,7 @@ nav {
   height: 400px;
   background-image: url(./assets/hero.png);
 }
-.vision{
+.vision {
   width: 1280px;
   height: 765px;
   display: flex;
@@ -85,28 +85,28 @@ nav {
   align-items: center;
   margin: 0 auto;
 }
-.vision .text{
+.vision .text {
   height: 120px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.vision .text h2{
+.vision .text h2 {
   font-size: 40px;
   font-weight: bold;
 }
-.vision .text p{
+.vision .text p {
   font-size: 16px;
   color: rgba(14, 14, 14, 0.66);
   line-height: 23px;
 }
-.card-box{
+.card-box {
   width: 100%;
   height: 325px;
   display: flex;
   justify-content: space-between;
 }
-.card-box .card{
+.card-box .card {
   width: 410px;
   height: 100%;
   border-radius: 16px;
@@ -116,38 +116,38 @@ nav {
   align-items: start;
   padding: 32px;
 }
-.card1{
+.card1 {
   background-color: rgba(84, 143, 245, 0.256);
 }
-.card2{
-  background-color: #C6E4D6;
+.card2 {
+  background-color: #c6e4d6;
 }
-.card3{
-  background-color: #F7EBCF;
+.card3 {
+  background-color: #f7ebcf;
 }
-.card1 .img{
+.card1 .img {
   height: 64px;
   width: 64px;
   background-image: url(./assets/card-icon.png);
 }
-.card2 .img{
+.card2 .img {
   height: 64px;
   width: 64px;
   background-image: url(./assets/card-icon.png);
 }
-.card3 .img{
+.card3 .img {
   height: 64px;
   width: 64px;
   background-image: url(./assets/card-icon.png);
 }
-.card .text h4{
+.card .text h4 {
   font-size: 20px;
   font-weight: bold;
 }
-.card .text p{
+.card .text p {
   color: rgba(14, 14, 14, 0.66);
 }
-.card button{
+.card button {
   padding: 11px 20px;
   color: white;
   font-weight: 600;
@@ -155,17 +155,17 @@ nav {
   border-radius: 8px;
 }
 
-.card1 button{
+.card1 button {
   background-color: #4d87ec;
 }
-.card2 button{
-  background-color: #09A15C;
+.card2 button {
+  background-color: #09a15c;
 }
-.card3 button{
+.card3 button {
   background-color: #d8a61e;
 }
 
-.qoute-div{
+.qoute-div {
   height: 256px;
   width: 100%;
   background-color: white;
@@ -175,7 +175,7 @@ nav {
   align-items: center;
   position: relative;
 }
-.qoute-div .content{
+.qoute-div .content {
   height: 160px;
   width: 1232px;
   display: flex;
@@ -184,15 +184,15 @@ nav {
   gap: 20px;
 }
 .qoute-div .content > p,
-.qoute-div .yunus > p{
+.qoute-div .yunus > p {
   line-height: 24px;
   color: rgba(14, 14, 14, 0.66);
 }
-.qoute-div .yunus h5{
+.qoute-div .yunus h5 {
   font-size: 20px;
   font-weight: 600;
 }
-.qoute-div .qoute-img{
+.qoute-div .qoute-img {
   height: 64px;
   width: 64px;
   background-image: url(./assets/quote-bg.png);
@@ -200,7 +200,7 @@ nav {
   top: 24px;
   left: 24px;
 }
-.recent-news{
+.recent-news {
   width: 1280px;
   height: 1406px;
   margin: 0 auto;
@@ -208,22 +208,22 @@ nav {
   flex-direction: column;
   justify-content: space-between;
 }
-.recent-news .news-text{
+.recent-news .news-text {
   height: 120px;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
-.recent-news .news-text h3{
+.recent-news .news-text h3 {
   font-size: 40px;
   font-weight: bold;
 }
-.recent-news .news-text p{
+.recent-news .news-text p {
   line-height: 24px;
   color: rgba(14, 14, 14, 0.66);
 }
-.recent-news .news-content{
+.recent-news .news-content {
   height: 1254px;
   width: 100%;
   display: flex;
@@ -240,13 +240,13 @@ nav {
   align-items: center;
 }
 
-.content-box .img{
+.content-box .img {
   height: 306px;
   width: 408px;
   background-image: url(./assets/satelite.png);
   border-radius: 24px;
 }
-.content-box .content{
+.content-box .content {
   height: 290px;
   width: 744px;
   display: flex;
@@ -254,29 +254,29 @@ nav {
   justify-content: space-between;
   align-items: start;
 }
-.content-box .content .title-box{
+.content-box .content .title-box {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   gap: 10px;
 }
-.content-box .content .title-box .heading{
+.content-box .content .title-box .heading {
   font-size: 32px;
   font-weight: bold;
 }
-.title-box .aljazeera-img{
+.title-box .aljazeera-img {
   height: 40px;
   width: 134px;
   background-image: url(./assets/al-jazeera.png);
 }
-.title-box .date-time span{
+.title-box .date-time span {
   margin-right: 10px;
 }
-.title-box p{
+.title-box p {
   color: rgba(14, 14, 14, 0.66);
   line-height: 24px;
 }
-.btn{
+.btn {
   padding: 13px 26px;
   color: white;
   background-color: #006a50;
@@ -284,7 +284,68 @@ nav {
   border: none;
   border-radius: 8px;
 }
-#box2{
+#box2 {
   display: flex;
   flex-direction: row-reverse;
+}
+.donate {
+  width: 1280px;
+  height: 464px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+.donate .text {
+  height: 120px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+}
+.donate .Amount-box {
+  height: 128px;
+  width: 1071px;
+  display: flex;
+  justify-content: space-between;
+}
+.donate .Amount-box .box {
+  height: 100%;
+  width: 240px;
+  border-radius: 16px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+.donate .text h3 {
+  font-size: 40px;
+  font-weight: bold;
+}
+.donate .text p{
+  color: rgba(14, 14, 14, 0.66);
+  line-height: 24px;
+}
+.donate .Amount-box .box2 {
+  background-color: #40de94;
+}
+.donate .Amount-box .box:hover{
+  background-color: #40de94;
+  transition: all .2s ease;
+}
+.donate input{
+  height: 64px;
+  width: 1032px;
+  text-align: center;
+  font-size: 20px;
+  border: none;
+}
+.donate button{
+  font-size: 18px;
+  font-weight: 600;
 }
