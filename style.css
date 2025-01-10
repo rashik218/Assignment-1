@@ -8,6 +8,7 @@ body {
   background-color: rgba(255, 196, 57, 0.1);
   font-family: "Fira Sans", serif;
 }
+
 body button:hover{
   scale: .98;
   transition: all .2s ease;
@@ -198,4 +199,92 @@ nav {
   position: absolute;
   top: 24px;
   left: 24px;
+}
+.recent-news{
+  width: 1280px;
+  height: 1406px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.recent-news .news-text{
+  height: 120px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.recent-news .news-text h3{
+  font-size: 40px;
+  font-weight: bold;
+}
+.recent-news .news-text p{
+  line-height: 24px;
+  color: rgba(14, 14, 14, 0.66);
+}
+.recent-news .news-content{
+  height: 1254px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.content-box {
+  height: 402px;
+  width: 100%;
+  background-color: white;
+  border-radius: 24px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.content-box .img{
+  height: 306px;
+  width: 408px;
+  background-image: url(./assets/satelite.png);
+  border-radius: 24px;
+}
+.content-box .content{
+  height: 290px;
+  width: 744px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: start;
+}
+.content-box .content .title-box{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 10px;
+}
+.content-box .content .title-box .heading{
+  font-size: 32px;
+  font-weight: bold;
+}
+.title-box .aljazeera-img{
+  height: 40px;
+  width: 134px;
+  background-image: url(./assets/al-jazeera.png);
+}
+.title-box .date-time span{
+  margin-right: 10px;
+}
+.title-box p{
+  color: rgba(14, 14, 14, 0.66);
+  line-height: 24px;
+}
+.btn{
+  padding: 13px 26px;
+  color: white;
+  background-color: #006a50;
+  font-weight: 600;
+  border: none;
+  border-radius: 8px;
+}
+#box2{
+  display: flex;
+  flex-direction: row-reverse;
 }
