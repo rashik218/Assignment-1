@@ -20,11 +20,11 @@ body button:hover {
 }
 nav {
   height: 100px;
-  width: 100%;
+  width: 1280px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 115px;
+  margin: 0 auto;
 }
 .logo {
   font-size: 32px;
@@ -109,9 +109,9 @@ nav {
   flex-direction: column;
   justify-content: space-between;
 }
-.pillars-of .pillar-cards .card:hover{
+.pillars-of .pillar-cards .card:hover {
   box-shadow: 2px 2px 10px;
-  transition: all .3s ease;
+  transition: all 0.3s ease;
   cursor: pointer;
 }
 .pillars-of .pillar-cards .card .img {
@@ -121,16 +121,16 @@ nav {
   background-position: center;
   background-size: cover;
 }
-.pillars-of .pillar-cards .card .img1{
+.pillars-of .pillar-cards .card .img1 {
   background-image: url(./assets/innovation.png);
 }
-.pillars-of .pillar-cards .card .img2{
+.pillars-of .pillar-cards .card .img2 {
   background-image: url(./assets/Sustainablity.png);
 }
-.pillars-of .pillar-cards .card .img3{
+.pillars-of .pillar-cards .card .img3 {
   background-image: url(./assets/Empowerment.png);
 }
-.pillars-of .pillar-cards .card .img4{
+.pillars-of .pillar-cards .card .img4 {
   background-image: url(./assets/Resilience.png);
 }
 
