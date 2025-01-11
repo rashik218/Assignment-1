@@ -5,10 +5,13 @@
   box-sizing: border-box;
 }
 body {
-  background-color: rgba(255, 196, 57, 0.1);
+  background-color: #f5f5f5;
   font-family: "Fira Sans", serif;
 }
-
+body p{
+  color: rgba(13, 13, 13, 0.70);
+  line-height: 24px;
+}
 body button:hover {
   scale: 0.98;
   transition: all 0.2s ease;
@@ -28,11 +31,11 @@ nav {
   font-weight: bold;
 }
 .sign-in {
-  color: #006a50;
+  color: #059772;
   font-size: 18px;
   font-weight: 600;
   padding: 15px 30px;
-  border: 1px solid #006a50;
+  border: 1.5px solid #006a50;
   border-radius: 8px;
 }
 .banner {
@@ -43,7 +46,7 @@ nav {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin: 0 auto;
+  margin: 0 auto 180px;
 }
 .banner-content {
   width: 622px;
@@ -83,7 +86,7 @@ nav {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  margin: 0 auto;
+  margin: 0 auto 180px;
 }
 .vision .text {
   height: 120px;
@@ -97,7 +100,6 @@ nav {
 }
 .vision .text p {
   font-size: 16px;
-  color: rgba(14, 14, 14, 0.66);
   line-height: 23px;
 }
 .card-box {
@@ -115,6 +117,11 @@ nav {
   justify-content: space-between;
   align-items: start;
   padding: 32px;
+  cursor: pointer;
+}
+.card-box .card:hover{
+  box-shadow: 3px 3px 20px;
+  transition: all .2s ease;
 }
 .card1 {
   background-color: rgba(84, 143, 245, 0.256);
@@ -144,9 +151,7 @@ nav {
   font-size: 20px;
   font-weight: bold;
 }
-.card .text p {
-  color: rgba(14, 14, 14, 0.66);
-}
+
 .card button {
   padding: 11px 20px;
   color: white;
@@ -186,7 +191,6 @@ nav {
 .qoute-div .content > p,
 .qoute-div .yunus > p {
   line-height: 24px;
-  color: rgba(14, 14, 14, 0.66);
 }
 .qoute-div .yunus h5 {
   font-size: 20px;
@@ -203,7 +207,7 @@ nav {
 .recent-news {
   width: 1280px;
   height: 1406px;
-  margin: 0 auto;
+  margin: 0 auto 180px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -219,10 +223,7 @@ nav {
   font-size: 40px;
   font-weight: bold;
 }
-.recent-news .news-text p {
-  line-height: 24px;
-  color: rgba(14, 14, 14, 0.66);
-}
+
 .recent-news .news-content {
   height: 1254px;
   width: 100%;
@@ -245,6 +246,10 @@ nav {
   width: 408px;
   background-image: url(./assets/satelite.png);
   border-radius: 24px;
+}
+.content-box .img:hover{
+  box-shadow: 1px 1px 10px;
+  transition: all .2s ease;
 }
 .content-box .content {
   height: 290px;
@@ -272,10 +277,7 @@ nav {
 .title-box .date-time span {
   margin-right: 10px;
 }
-.title-box p {
-  color: rgba(14, 14, 14, 0.66);
-  line-height: 24px;
-}
+
 .btn {
   padding: 13px 26px;
   color: white;
@@ -291,7 +293,7 @@ nav {
 .donate {
   width: 1280px;
   height: 464px;
-  margin: 0 auto;
+  margin: 0 auto 180px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -327,16 +329,14 @@ nav {
   font-size: 40px;
   font-weight: bold;
 }
-.donate .text p {
-  color: rgba(14, 14, 14, 0.66);
-  line-height: 24px;
-}
+
 .donate .Amount-box .box2 {
   background-color: #40de94;
 }
 .donate .Amount-box .box:hover {
   background-color: #40de94;
   transition: all 0.2s ease;
+  box-shadow: 2px 2px 10px #17422e87;
 }
 .donate input {
   height: 64px;
@@ -344,6 +344,7 @@ nav {
   text-align: center;
   font-size: 20px;
   border: none;
+  outline: none;
 }
 .donate button {
   font-size: 18px;
@@ -353,7 +354,7 @@ nav {
   width: 1280px;
   height: 395px;
   display: flex;
-  margin: 0 auto;
+  margin: 0 auto 180px;
   background-color: #c6e4d6;
   border-radius: 24px;
   flex-direction: column;
@@ -380,10 +381,7 @@ nav {
   font-size: 40px;
   font-weight: bold;
 }
-.subs-content .content p {
-  line-height: 24px;
-  color: rgba(14, 14, 14, 0.66);
-}
+
 .subs-content .input-button{
   width: 100%;
   height: 56px;
@@ -407,6 +405,27 @@ nav {
   background-color: #006a50;
   color: white;
 }
-.subs-content p{
-  color: rgba(14, 14, 14, 0.66);
+
+footer{
+  height: 226px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+footer hr{
+  width: 1122px;
+  opacity: .3;
+}
+footer h5{
+  font-size: 32px;
+  font-weight: bold;
+}
+footer .social-icon{
+  font-size: 1.6em;
+  display: flex;
+  gap: 15px;
+  cursor: pointer;
 }
